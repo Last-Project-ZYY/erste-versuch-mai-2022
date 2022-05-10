@@ -1,11 +1,17 @@
+*{
+  padding: 0;
+  margin: 0;
+}
 header {
-  background-image: url("https://media.istockphoto.com/photos/dark-red-grungy-background-with-spotlight-background-picture-id1157181209?k=20&m=1157181209&s=612x612&w=0&h=MoScekCPMElde1y9Pl3WXY_I2HOvU-UVl6YDnVWKPKM=");
   height: 100px;
-  font-size: 50px;
+  font-size: 40px;
   word-spacing: 20px;
   display: flex;
+  background-color: red;
   justify-content: space-between;
   align-items: center;
+  background: rgb(2,0,36);
+background: linear-gradient(94deg, rgba(2,0,36,1) 0%, rgba(108,49,7,1) 26%, rgba(62,31,18,1) 44%, rgba(125,66,24,1) 68%, rgba(41,9,0,1) 84%);
 }
 form {
   margin-right: 30px;
@@ -13,15 +19,40 @@ form {
 a {
   color: #fff;
   text-decoration: none;
+  margin: 5px;
 }
 a:hover {
-  color: rgb(255, 238, 0);
-  background-color: rgb(255, 0, 0);
-  border-radius: 15px;
+  color: red;
 }
 img {
-  width: 12%;
+  width: 12.31%;
   object-fit: inherit;
 
   aspect-ratio: 1;
+}
+nav{
+  padding-left: 1rem;
+}
+h1{
+    padding: 10px;
+}
+span{
+  padding-left: 8rem;
+  background-color: rgb(20, 20, 20);
+  margin-left: 10px;
+}
+p{
+
+  background-color: rgba(228, 17, 17, 0.445);
+  color: wheat;
+  border-radius: 7px;
+  margin: 9px;
+  padding: 10px;
+}
+.container{
+  background-image: url(./fadi-alagi-yxl9NLYbo7o-unsplash.jpg);
+  padding: 30px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
