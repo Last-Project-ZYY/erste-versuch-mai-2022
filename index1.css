@@ -5,7 +5,7 @@
 header {
   height: 100px;
   font-size: 40px;
-  word-spacing: 20px;
+ 
   display: flex;
   background-color: red;
   justify-content: space-between;
@@ -55,4 +55,8 @@ p{
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
+body{
+  background: rgb(2,0,36);
+background: linear-gradient(94deg, rgba(2,0,36,1) 0%, rgba(108,49,7,1) 26%, rgba(62,31,18,1) 44%, rgba(125,66,24,1) 68%, rgba(41,9,0,1) 84%);
 }
